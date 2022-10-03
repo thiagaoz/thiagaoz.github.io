@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.95b19a80.css",
-    "main.js": "/static/js/main.7c986866.js",
+    "main.css": "/static/css/main.22d92f44.css",
+    "main.js": "/static/js/main.cc289ee9.js",
     "static/media/perfil-blue1.png": "/static/media/perfil-blue1.14ae1ed746465d2e0f3a.png",
     "static/media/TS-logo.png": "/static/media/TS-logo.c4105801aadf2606ac30.png",
     "static/media/react-logo.png": "/static/media/react-logo.44319306359c7112276d.png",
     "index.html": "/index.html",
-    "main.95b19a80.css.map": "/static/css/main.95b19a80.css.map",
-    "main.7c986866.js.map": "/static/js/main.7c986866.js.map"
+    "main.22d92f44.css.map": "/static/css/main.22d92f44.css.map",
+    "main.cc289ee9.js.map": "/static/js/main.cc289ee9.js.map"
   },
   "entrypoints": [
-    "static/css/main.95b19a80.css",
-    "static/js/main.7c986866.js"
+    "static/css/main.22d92f44.css",
+    "static/js/main.cc289ee9.js"
   ]
 }
