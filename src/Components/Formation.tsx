@@ -3,7 +3,7 @@ import '../Styles/Formation.css'
 function Formation() {
   return (
     <div className='page-container formation'>
-        <h1 className='formation-title'>Formation</h1>
+        <h1 className='formation-title'>Formação</h1>
         <ul className='formation-content'>
           <li>Engenharia Elétrica com ênfase em Computação  - UFU</li>
           <li>JavaScript Algorithms and Data Structures - freecodecamp</li>

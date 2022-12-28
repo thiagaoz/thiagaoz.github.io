@@ -7,7 +7,7 @@ function Contact() {
   const contactRef = React.createRef<HTMLDivElement>();
   return (
     <div className='page-container' ref={contactRef}>
-        <h1 className='contact-title'>Contact</h1>
+        <h1 className='contact-title'>Contato</h1>
         <div className='contact-content'>
           <p>thiago.vazss@gmail.com</p>
           <p>github.com/thiagaoz</p>
