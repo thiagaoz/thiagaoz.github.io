@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.3ab58e5e.css",
-    "main.js": "/static/js/main.d0a2981f.js",
+    "main.js": "/static/js/main.c8b09d07.js",
     "static/media/profile-front.png": "/static/media/profile-front.29dcd5d5f352f19e0ce2.png",
     "static/media/typescript.png": "/static/media/typescript.c4105801aadf2606ac30.png",
     "static/media/react.png": "/static/media/react.44319306359c7112276d.png",
     "static/media/sass-logo.png": "/static/media/sass-logo.6747d5c68a381e29fc69.png",
     "index.html": "/index.html",
     "main.3ab58e5e.css.map": "/static/css/main.3ab58e5e.css.map",
-    "main.d0a2981f.js.map": "/static/js/main.d0a2981f.js.map"
+    "main.c8b09d07.js.map": "/static/js/main.c8b09d07.js.map"
   },
   "entrypoints": [
     "static/css/main.3ab58e5e.css",
-    "static/js/main.d0a2981f.js"
+    "static/js/main.c8b09d07.js"
   ]
 }
