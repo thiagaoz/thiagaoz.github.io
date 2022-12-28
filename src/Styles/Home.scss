@@ -1,0 +1,95 @@
+@import './Variables.scss';
+
+.home{
+    @include noSelect();
+    font-family: $kusanagiFont;
+    font-style: italic;
+    font-size: max(4vw, 40px);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    padding-top: 100px;
+
+    @media screen and (max-width: 420px){
+        font-size: 25px;   
+    }
+
+    .photo{
+        
+        border-radius: 50%;
+        width: max(16vw, 200px);
+        height: fit-content;
+        align-self: center;
+        @media screen and (max-width: 420px) {
+            width: 128px;
+        }
+
+    }
+
+    .name{
+        display: none;
+        align-self: center;
+        font-family: $obitronFont;
+        font-style: italic;
+        letter-spacing: 5px;
+        word-spacing: 20px;
+        font-weight: bolder;
+        text-shadow:
+                0 0 10px $iceBlue;
+
+        @media screen and (max-width: 940px) {
+            display: block;                        
+            }
+        @media screen and (max-width: 420px){
+            word-spacing: 10px;   
+        }
+        
+    }
+
+    .frontend{
+        align-self: center;
+        width: fit-content;
+        height: fit-content;
+
+        text-shadow:
+                0 0 10px $iceBlue;
+
+        @media screen and (max-width: 940px) {
+            margin-top: -20px;
+            }
+        @media screen and (max-width: 420px){
+            letter-spacing: 2px;   
+        }
+            
+    }
+
+    .logos-div{
+        
+        display: flex;
+        justify-content: space-around;
+        justify-self: center;
+        align-self: center;
+        width: 40vw;
+        
+        .logo{
+            width: max(48px, 5vw);
+            height: fit-content;
+            padding: 0 20px 0 20px;
+
+            
+            @media screen and (max-width: 420px){
+                width: 24px;
+                padding: 0 10px 0 10px;   
+            }
+
+
+            
+        }
+    }
+
+    
+
+}

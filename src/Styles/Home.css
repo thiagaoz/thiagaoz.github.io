@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+.home {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  -moz-user-select: none;
+       user-select: none; /* Standard syntax */
+  font-family: "Zen Dots", cursive;
+  font-style: italic;
+  font-size: max(4vw, 40px);
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
+@media screen and (max-width: 420px) {
+  .home {
+    font-size: 25px;
+  }
+}
+.home .photo {
+  border-radius: 50%;
+  width: max(16vw, 200px);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  align-self: center;
+}
+@media screen and (max-width: 420px) {
+  .home .photo {
+    width: 128px;
+  }
+}
+.home .name {
+  display: none;
+  align-self: center;
+  font-family: "Orbitron", sans-serif;
+  font-style: italic;
+  letter-spacing: 5px;
+  word-spacing: 20px;
+  font-weight: bolder;
+  text-shadow: 0 0 10px #a9b7cb;
+}
+@media screen and (max-width: 940px) {
+  .home .name {
+    display: block;
+  }
+}
+@media screen and (max-width: 420px) {
+  .home .name {
+    word-spacing: 10px;
+  }
+}
+.home .frontend {
+  align-self: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  text-shadow: 0 0 10px #a9b7cb;
+}
+@media screen and (max-width: 940px) {
+  .home .frontend {
+    margin-top: -20px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .home .frontend {
+    letter-spacing: 2px;
+  }
+}
+.home .logos-div {
+  display: flex;
+  justify-content: space-around;
+  justify-self: center;
+  align-self: center;
+  width: 40vw;
+}
+.home .logos-div .logo {
+  width: max(48px, 5vw);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0 20px 0 20px;
+}
+@media screen and (max-width: 420px) {
+  .home .logos-div .logo {
+    width: 24px;
+    padding: 0 10px 0 10px;
+  }
+}/*# sourceMappingURL=Home.css.map */

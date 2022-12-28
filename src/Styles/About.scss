@@ -1,0 +1,16 @@
+@import './_variables.scss';
+
+.page-container{
+    @include page-container-style;
+
+    .about-title{
+        @include page-title-style;
+    }
+
+    .about-content{
+        @include page-content-style(25px, 70vw, true);
+    }
+
+}
+
+

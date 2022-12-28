@@ -1,0 +1,106 @@
+@import './Variables.scss';
+
+.navbar{
+    @include noSelect();
+    background-color: $darkBlue;
+    
+
+    position: fixed;
+    
+    color: white;
+    height: 80px;
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+
+    
+    @media screen and (max-width: 800px) {
+        justify-content: center;
+    }
+    @media screen and (max-width: 660px) {
+        height: 50px;
+    }
+    @media screen and (max-width: 420px){
+        height: 60px;
+    }
+
+    .name{
+        font-size: min(50px, 3.5vw);
+        font-family: $obitronFont;
+        font-style: italic;
+        letter-spacing: 5px;
+        word-spacing: 20px;
+        font-weight: bolder;
+        margin-left: 2vw;
+        min-width: 300px;
+        
+        text-shadow:
+                0 0 10px $iceBlue;
+                
+        @media screen and (max-width: 940px) {
+            display: none;
+            }
+    }
+
+    .links-div{
+        
+        width: 650px;
+        display: flex;
+        
+        text-align: center;
+        justify-content: center;
+
+        @media screen and (max-width: 940px) {
+            width: 100vw;
+            }
+    }
+
+    .link{
+        //border: 1px solid greenyellow;
+        color: white;
+        cursor: pointer;
+        font-family: $kusanagiFont;
+        font-size: 20px;
+        width: 12vw;
+
+        padding: 20px;
+        
+
+        &:hover{
+            text-shadow:
+                0 0 4px $iceBlue,
+                0 0 20px $iceBlue;
+          
+        }
+
+        @media screen and (max-width: 940px){
+            width: 100vw;
+        }
+
+        @media screen and (max-width: 660px){
+            font-size: 15px;
+            
+            padding: 10px;
+        }
+    }
+
+    .theme-div{
+        position: absolute;
+        top: 50px;
+        right: 20px;
+
+        button{
+
+            padding: 5px 30px 5px 30px;
+            border-radius: 30px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+    
+}

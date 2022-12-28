@@ -1,0 +1,18 @@
+@import './Variables.scss';
+
+.page-container{
+    
+    @include page-container-style;
+    padding-bottom: 40px;
+
+    .formation-title{
+        @include page-title-style;    
+    }
+
+    .formation-content{
+        @include page-content-style(25px, 80vw, false);
+    }
+
+}
+
+
