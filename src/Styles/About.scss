@@ -9,7 +9,13 @@
 
     .about-content{
         @include page-content-style(25px, 70vw, true);
+        text-align: justify;
+
+        @media screen and (max-width: 840px) {
+            text-align: center;
+        }
     }
+
 
 }
 

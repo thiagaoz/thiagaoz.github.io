@@ -5,7 +5,7 @@ function About() {
   return (
     <div className='page-container'>
         <h1 className='about-title'> About </h1>
-          <p className='about-content'>Como um desenvolvedor front-end, acredito fortemente que a tecnologia deve ser usada para melhorar a vida das pessoas. Estou sempre procurando novos desafios e oportunidades para crescer em minha carreira e sou impulsionado por um amor pelo aprendizado de novas linguagens de programação e maneiras de comunicar. Seja através de código ou diálogo, estou dedicado a usar minhas habilidades para fazer um impacto positivo no mundo à minha volta.</p>
+          <p className='about-content'>&emsp;&emsp;Acredito fortemente que o propósito da tecnologia é melhorar a qualidade de vida das pessoas e conectá-las. Estou sempre buscando conhecer as tecnologias exigidas pelo mercado e oportunidades para iniciar a minha carreira como desenvolvedor. Sou impulsionado pela vontade aprender de novas  línguas e linguagens de programação. Seja através do código ou da conversa, me dedico a usar minhas habilidades para impactar de modo positivo o mundo à minha volta.</p>
     </div>
   )
 }
