@@ -16,11 +16,10 @@ function App() {
     <div className="App">
       <Navbar></Navbar>
       <Home ></Home>
+      <Formation></Formation>
       <Element id='about' name='example-destination'>
         <About></About>
       </Element>
-      
-      <Formation></Formation>
       <Element id='contact' name='example-destination'>
         <Contact></Contact>
       </Element>

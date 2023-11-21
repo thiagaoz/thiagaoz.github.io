@@ -46,8 +46,26 @@ $michroma: 'Michroma', sans-serif;
         
     }
 }
+@mixin basic-text{
+    color: white;
+    font-family: $michroma;
+    font-size: 20px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    justify-content: left;
+    text-align: center;
+    @media screen and (max-width: 800px) {
+        font-size: 20px;
+        
+    }
 
-@mixin page-content-style ($fontSize, $width, $textAlign){
+    @media screen and (max-width: 420px) {
+        font-size: 15px;
+    }
+}
+
+@mixin page-content-style ($fontSize, $width){
     padding-top: 50px;
     padding-bottom: 50px;
     color: white;
@@ -61,12 +79,12 @@ $michroma: 'Michroma', sans-serif;
     margin: 0 auto;
     width: $width;
     list-style-position: outside;
+    text-align: center;
     //border: 1px solid white;
 
-    @if $textAlign == true{
-        text-align: center;
-    } @else{
-        text-align: unset;
+    @media screen and (max-width: 800px) {
+        font-size: 20px;
+        
     }
 
     @media screen and (max-width: 420px) {

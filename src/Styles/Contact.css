@@ -2,8 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Zen+Dots&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
 .page-container .contact-title {
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
+  -webkit-user-select: none; /* Safari */ /* IE 10 and IE 11 */
   -moz-user-select: none;
        user-select: none; /* Standard syntax */
   margin-top: 150px;
@@ -35,6 +34,11 @@
   list-style-position: outside;
   text-align: center;
   padding-bottom: 50px;
+}
+@media screen and (max-width: 800px) {
+  .page-container .contact-content {
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 420px) {
   .page-container .contact-content {

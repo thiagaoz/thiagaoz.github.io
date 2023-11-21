@@ -3,19 +3,69 @@
 .page-container{
     @include page-container-style;
 
-    .about-title{
+    .portfolio-title{
         @include page-title-style;
+        padding-bottom: 50px
     }
 
-    .about-content{
-        @include page-content-style(25px, 70vw, true);
-        text-align: justify;
+    .portfolio-div{
+        @include page-content-style(25px, 70vw);
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 150px;
+        //border: 1px solid white;
+            @media screen and (max-width: 840px){
+                margin-left: auto;
+            }
 
-        @media screen and (max-width: 840px) {
-            text-align: center;
+        .sheipe-label{
+            text-align: justify;
+            width: fit-content;
+            
+            @media screen and (max-width: 840px) {
+                text-align: center;
+            }
+            
+        }
+        .logo{
+            margin: 0px 30px 0px 30px;
+            cursor: pointer;
+            &:hover{
+                box-shadow:
+                0 0 4px white,
+                0 0 10px $iceBlue,
+                0 0 20px $lightBlue;
+            }
+            
+        }
+        .github{
+            border-radius: 50%;
+            width: 50px;
+            height: fit-content;
+            @media screen and (max-width: 840px) {
+                width: 30px;
+            }
+        }
+        .download{
+            margin-top: 10px;
+            width: 30px;
+            border-radius: 50%;
+            border: 4px solid white;
+            height: fit-content;
+            color: white;
+            @media screen and (max-width: 840px) {
+                width: 30px;
+            }
         }
     }
 
+    .text{
+        @include basic-text;
+        margin-top: -20px;
+    }
 
 }
 

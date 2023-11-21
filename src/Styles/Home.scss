@@ -11,7 +11,12 @@
     justify-content: center;
     flex-direction: column;
 
+    margin-top: -20;
     padding-top: 100px;
+
+    @media screen and (max-width: 920px){
+        padding-top: 80px;
+    }
 
     @media screen and (max-width: 420px){
         font-size: 25px;   
@@ -30,6 +35,7 @@
     }
 
     .name{
+        margin-top: -20;
         display: none;
         align-self: center;
         font-family: $obitronFont;
@@ -42,7 +48,7 @@
 
         @media screen and (max-width: 940px) {
             display: block;                        
-            }
+        }
         @media screen and (max-width: 420px){
             word-spacing: 10px;   
         }
@@ -58,7 +64,7 @@
                 0 0 10px $iceBlue;
 
         @media screen and (max-width: 940px) {
-            margin-top: -20px;
+            margin-top: 20px;
             }
         @media screen and (max-width: 420px){
             letter-spacing: 2px;   
@@ -69,7 +75,7 @@
     .logos-div{
         
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         justify-self: center;
         align-self: center;
         width: 40vw;

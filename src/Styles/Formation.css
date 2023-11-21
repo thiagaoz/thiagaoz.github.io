@@ -5,8 +5,7 @@
   padding-bottom: 40px;
 }
 .page-container .formation-title {
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
+  -webkit-user-select: none; /* Safari */ /* IE 10 and IE 11 */
   -moz-user-select: none;
        user-select: none; /* Standard syntax */
   margin-top: 150px;
@@ -36,12 +35,86 @@
   margin: 0 auto;
   width: 80vw;
   list-style-position: outside;
-  text-align: unset;
+  text-align: center;
+}
+@media screen and (max-width: 800px) {
+  .page-container .formation-content {
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 420px) {
   .page-container .formation-content {
     padding-top: 0px;
     padding-bottom: 0px;
     font-size: 15px;
+  }
+}
+.page-container .formation-content .curriculum-div {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  font-family: "Michroma", sans-serif;
+  font-size: 25px;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  justify-content: left;
+  display: table;
+  margin: 0 auto;
+  width: 70vw;
+  list-style-position: outside;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+@media screen and (max-width: 800px) {
+  .page-container .formation-content .curriculum-div {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .page-container .formation-content .curriculum-div {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 840px) {
+  .page-container .formation-content .curriculum-div {
+    margin-left: auto;
+  }
+}
+.page-container .formation-content .curriculum-div .label {
+  text-align: justify;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+@media screen and (max-width: 840px) {
+  .page-container .formation-content .curriculum-div .label {
+    text-align: center;
+  }
+}
+.page-container .formation-content .curriculum-div .logo {
+  margin: 0px 30px 0px 30px;
+  cursor: pointer;
+}
+.page-container .formation-content .curriculum-div .logo:hover {
+  box-shadow: 0 0 4px white, 0 0 10px #a9b7cb, 0 0 20px #0856ff;
+}
+.page-container .formation-content .curriculum-div .download {
+  margin-top: 10px;
+  width: 30px;
+  border-radius: 50%;
+  border: 4px solid white;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: white;
+}
+@media screen and (max-width: 840px) {
+  .page-container .formation-content .curriculum-div .download {
+    width: 20px;
   }
 }/*# sourceMappingURL=Formation.css.map */

@@ -2,8 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Zen+Dots&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
 .navbar {
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
+  -webkit-user-select: none; /* Safari */ /* IE 10 and IE 11 */
   -moz-user-select: none;
        user-select: none; /* Standard syntax */
   background-color: #181d2a;
