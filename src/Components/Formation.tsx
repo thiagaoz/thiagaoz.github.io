@@ -10,8 +10,8 @@ function Formation() {
           <p>Engenheiro Eletricista com ênfase em Computação</p>
           <p>Cursando Sistemas de Informação</p>
           <div className='curriculum-div'>
-            <a href='../Assets/ThiagoVaz_CV.pdf' download='ThiagoVaz_CV.pdf'>
-              <img className='download logo'  src={DownloadImg} alt='Download PDF' />
+            <a href='https://raw.githubusercontent.com/thiagaoz/thiagaoz.github.io/master/src/Assets/ThiagoVaz_CV.pdf' download='ThiagoVaz_CV.pdf'>
+              <img className='download logo' src={DownloadImg} alt='Download PDF' />
             </a>
             <p className='label'>Baixar currículo completo</p>
           </div>
