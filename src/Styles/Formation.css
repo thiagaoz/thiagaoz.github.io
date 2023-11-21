@@ -84,7 +84,9 @@
 }
 @media screen and (max-width: 840px) {
   .page-container .formation-content .curriculum-div {
-    margin-left: auto;
+    justify-content: space-around;
+    width: 90vw;
+    flex-direction: column-reverse;
   }
 }
 .page-container .formation-content .curriculum-div .label {
@@ -94,7 +96,7 @@
 }
 @media screen and (max-width: 840px) {
   .page-container .formation-content .curriculum-div .label {
-    text-align: center;
+    text-align: start;
   }
 }
 .page-container .formation-content .curriculum-div .logo {
@@ -116,5 +118,7 @@
 @media screen and (max-width: 840px) {
   .page-container .formation-content .curriculum-div .download {
     width: 20px;
+    margin-left: 20px;
+    margin-top: -5px;
   }
 }/*# sourceMappingURL=Formation.css.map */

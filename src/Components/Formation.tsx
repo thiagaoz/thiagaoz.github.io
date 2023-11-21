@@ -7,7 +7,7 @@ function Formation() {
     <div className='page-container formation'>
         <h1 className='formation-title'>Formação</h1>
         <div className='formation-content'>
-          <p>Engenheiro Elétricista com ênfase em Computação</p>
+          <p>Engenheiro Eletricista com ênfase em Computação</p>
           <p>Cursando Sistemas de Informação</p>
           <div className='curriculum-div'>
             <a href='../Assets/ThiagoVaz_CV.pdf' download='ThiagoVaz_CV.pdf'>

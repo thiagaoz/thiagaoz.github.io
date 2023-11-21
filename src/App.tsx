@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './Styles/App.css';
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
-import About from './Components/About';
+import Portfolio from './Components/Portfolio';
 import Formation from './Components/Formation';
 import Contact from './Components/Contact';
 import { Element } from 'react-scroll'
@@ -17,8 +17,8 @@ function App() {
       <Navbar></Navbar>
       <Home ></Home>
       <Formation></Formation>
-      <Element id='about' name='example-destination'>
-        <About></About>
+      <Element id='portfolio' name='example-destination'>
+        <Portfolio></Portfolio>
       </Element>
       <Element id='contact' name='example-destination'>
         <Contact></Contact>

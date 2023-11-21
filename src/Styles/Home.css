@@ -58,7 +58,7 @@
     word-spacing: 10px;
   }
 }
-.home .frontend {
+.home .my-title {
   align-self: center;
   width: -moz-fit-content;
   width: fit-content;
@@ -66,13 +66,14 @@
   height: fit-content;
   text-shadow: 0 0 10px #a9b7cb;
 }
-@media screen and (max-width: 940px) {
-  .home .frontend {
+@media screen and (max-width: 700px) {
+  .home .my-title {
     margin-top: 20px;
   }
 }
 @media screen and (max-width: 420px) {
-  .home .frontend {
+  .home .my-title {
+    font-size: 15px;
     letter-spacing: 2px;
   }
 }
