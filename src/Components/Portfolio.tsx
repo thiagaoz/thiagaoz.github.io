@@ -2,11 +2,12 @@ import React from 'react';
 import '../Styles/Portfolio.css';
 import Github from '../Assets/github.png';
 import DownloadImg from '../Assets/download.png'
+import Android from '../Assets/android.png'
 
 function Portfolio() {
   return (
     <div className='page-container'>
-        <h1 className='portfolio-title'> Porfolio </h1>
+        <h1 className='portfolio-title'> Porfólio </h1>
         <div className='portfolio-div'>
           <img className='github logo' src={Github} alt='Github logo' 
               onClick={()=> window.open('https://github.com/thiagaoz', "_blank")}></img>
@@ -17,9 +18,10 @@ function Portfolio() {
             download='ThiagoVaz_CV.pdf' target="_blank" rel="noreferrer" >
             <img className='download logo'  src={DownloadImg} alt='Download PDF' />
           </a>
-          <p className='image-label'>Sheipe (app)</p>
+          <h5 className='image-label'>Baixar Sheipe  </h5>
+          <img className='android'  src={Android} alt='Android logo' />
         </div>
-        <p className='text'>Meu app para gerenciar seus treinos na academia</p>
+        <p className='text'>Gerencie seus treinos na academia</p>
     </div>
   )
 }

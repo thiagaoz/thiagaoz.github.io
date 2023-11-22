@@ -13,7 +13,7 @@ function Formation() {
             <a href='https://raw.githubusercontent.com/thiagaoz/thiagaoz.github.io/master/src/Assets/ThiagoVaz_CV.pdf' download='ThiagoVaz_CV.pdf'>
               <img className='download logo' src={DownloadImg} alt='Download PDF' />
             </a>
-            <p className='label'>Baixar currículo completo</p>
+            <p className='label'>Baixe o currículo completo</p>
           </div>
         </div>
     </div>

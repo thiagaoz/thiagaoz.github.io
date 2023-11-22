@@ -4,7 +4,7 @@
     @include noSelect();
     font-family: $kusanagiFont;
     font-style: italic;
-    font-size: max(4vw, 40px);
+    font-size: max(3vw, 20px);
     color: white;
 
     display: flex;
@@ -12,7 +12,7 @@
     flex-direction: column;
 
     margin-top: -20;
-    padding-top: 100px;
+    padding-top: 120px;
 
     @media screen and (max-width: 920px){
         padding-top: 80px;
@@ -23,13 +23,14 @@
     }
 
     .photo{
-        
+        margin-bottom: 40px;
         border-radius: 50%;
         width: max(16vw, 200px);
         height: fit-content;
         align-self: center;
         @media screen and (max-width: 420px) {
             width: 128px;
+            margin-bottom: 1px;
         }
 
     }

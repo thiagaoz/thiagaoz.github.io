@@ -104,6 +104,19 @@
     border: 3px solid white;
   }
 }
+.page-container .portfolio-div .android {
+  border-radius: 50%;
+  width: 40px;
+  padding: 2px;
+  margin-left: 20px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+@media screen and (max-width: 840px) {
+  .page-container .portfolio-div .android {
+    width: 30px;
+  }
+}
 .page-container .text {
   color: white;
   font-family: "Michroma", sans-serif;
@@ -113,7 +126,8 @@
   font-weight: bold;
   justify-content: left;
   text-align: center;
-  margin-top: -20px;
+  margin-top: -30px;
+  margin-left: -50px;
 }
 @media screen and (max-width: 800px) {
   .page-container .text {
