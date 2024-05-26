@@ -1,29 +1,43 @@
 import React from 'react';
 import '../Styles/Portfolio.css';
 import Github from '../Assets/github.png';
+import Brasil from '../Assets/brasil.png';
+import France from '../Assets/france.png';
+import Usa from '../Assets/usa.png';
+import Nihon from '../Assets/nihon.png';
 import DownloadImg from '../Assets/download.png'
 import Android from '../Assets/android.png'
-
+//flags by <a href="https://www.freepik.com/icon/brazil_5372656#fromView=search&page=1&position=68&uuid=f80c1c3c-7538-481f-9ccf-c5d0b8a78b59">Icon by Icon.doit</a>
 function Portfolio() {
   return (
     <div className='page-container'>
         <h1 className='portfolio-title'> Porfólio </h1>
-        <div className='portfolio-div'>
-          <img className='github logo' src={Github} alt='Github logo' 
-              onClick={()=> window.open('https://github.com/thiagaoz', "_blank")}></img>
-          <p className='image-label'>github.com/thiagaoz</p>
-        </div>
-        <div className='portfolio-div'>
-          <a href='https://drive.google.com/uc?export=download&id=1HM-uDfb0KgmqP912wCZ1kNp8pxMPcuk4' 
-            download='ThiagoVaz_CV.pdf' target="_blank" rel="noreferrer" >
-            <img className='download logo'  src={DownloadImg} alt='Download PDF' />
-          </a>
-          <h5 className='image-label'>Baixar Sheipe  </h5>
-          <img className='android'  src={Android} alt='Android logo' />
-        </div>
-        <p className='text'>Gerencie seus treinos na academia</p>
+          
+          <div className='flags-div'>
+            <div className='skill'>
+              <img className='brasil flag' src={Brasil} alt='Bandeira do Brasil'></img>
+              <pre className='gauge'>//////////   //////////   //////////   //////////</pre>
+            </div>
+            <div className='skill'>
+              <img className='usa flag' src={Usa} alt='Bandeira dos Estados Unidos da América'></img>
+              <pre className='gauge'>//////////   //////////   //////////</pre>  
+            </div>
+            
+            <div className='skill'>
+              <img className='france flag' src={France} alt='Bandeira da França'></img>
+              <pre className='gauge'>//////////</pre>  
+            </div>
+            
+            <div className='skill'>
+              <img className='nihon flag' src={Nihon} alt='Bandeira do Japão'></img>
+              <pre className='gauge'>//////////</pre>  
+            </div>
+            
+    
+          </div>
+        
     </div>
   )
 }
 
-export default Portfolio   
+export default Portfolio    

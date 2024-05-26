@@ -9,7 +9,7 @@ import { Element } from 'react-scroll'
 
 function App() {
   useEffect(() => {
-    document.title = "Thiago Vaz <Eng de Software />";
+    document.title = "Thiago Vaz <Engenheiro de Software/>";
   },[])
   
   return (
